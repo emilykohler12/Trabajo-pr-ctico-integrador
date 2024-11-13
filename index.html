@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="adminlte/css/adminlte.min.css">
+    <script src="adminlte/js/adminlte.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/index.css"/>
+    <title>Freddy Motos</title>
+</head>
+
+<body>
+    <a href="https://wa.me/5493751446284" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div class="fondo">
+        <img src="img/freddymotos.png" alt="Fondo de la pantalla">
+        <header>
+            <div class="logo-menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#historia">Sobre nosotros</a></li>
+                        <li><a href="#location-section">Ubicación</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="hambur">
+                <button id="abrir-menu" onclick="abrir()">...</button>
+                <nav id="burguer">
+                    <ul class="menu-hamburguesa">
+                        <li><a href="">Iniciar sesion</a></li>
+                        <li><a href="">Configuracion</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="repuesto">
+            <h2>Encuentra tu repuesto</h2>
+            <p>Navega por nuestro catálogo para descubrir nuestra amplia gama de productos: 
+                desde frenos, filtros, y aceites, hasta piezas de motor y accesorios. Estamos aquí 
+                para asegurarnos de que tu moto funcione como el primer día.</p>
+            <a href="pages/repuestos.html">
+                <button class="custom-boton">Repuestos</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="cajas">
+        <a href="#taller">
+            <div class="caja">
+                <img src="https://img.icons8.com/material-outlined/96/000000/maintenance.png" alt="Taller">
+                <h3>Taller</h3>
+            </div>
+        </a>
+        <a href="#servicios">
+            <div class="caja">
+                <img src="https://img.icons8.com/material-outlined/96/000000/map-marker.png" alt="Ubicación">
+                <h3>Servicios</h3>
+            </div>
+        </a>
+        <a href="#oferta">
+            <div class="caja">
+                <img src="https://img.icons8.com/material-outlined/96/000000/book.png" alt="Sobre nosotros">
+                <h3>Ofertas</h3>
+            </div>
+        </a>
+    </div>
+
+    <section id="oferta">
+        <section class="oferta">
+            <h2>Ofertas</h2>
+             
+        </section>
+    </section>
+
+    <section id="contacto">
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-box">
+                    <h3><i class="fas fa-phone-alt"></i> | Teléfono</h3>
+                    <p>03751 422512</p>
+                </div>
+                <div class="contact-box">
+                    <h3><i class="fab fa-whatsapp"></i> | Celular</h3>
+                    <a href="https://wa.me/5493751446284" target="_blank">+54 9 3751 446284</a>
+                </div>
+                <div class="contact-box">
+                    <h3><i class="fas fa-envelope"></i> | Email</h3>
+                    <a href="mailto:ekohler@hotmail.com.ar">ekohler@hotmail.com.ar</a>
+                </div>
+                <div class="contact-box">
+                    <h3><i class="fab fa-instagram"></i> | Instagram</h3>
+                    <a href="https://www.instagram.com/freddy.motos/" target="_blank">@freddy.motos</a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="location-section">
+        <section class="location-section">
+            <div class="location-image">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.305124403799!2d-54.6033572!3d-26.4085552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f76dfcf232f83f%3A0x3c9070e7ccc10719!2sFredy%20Motos!5e0!3m2!1ses!2sar!4v1696976543210!5m2!1ses!2sar" 
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="location-details">
+                <h2>Ubicación</h2>
+                <p>Avenida San Martín 2258<br>Eldorado, Misiones, Argentina</p>
+                <p><strong>Horario de atención:</strong></p>
+                <ul>
+                    <li>Lunes a Viernes: 8:00 - 12:00, 16:00 - 19:00</li>
+                    <li>Sábado: 8:00 - 13:00</li>
+                </ul>
+                <a href="https://www.google.com/maps/place/Fredy+Motos/@-26.4085552,-54.6033572,17z/data=!3m1!4b1!4m6!3m5!1s0x94f76dfcf232f83f:0x3c9070e7ccc10719!8m2!3d-26.40856!4d-54.6007823!16s%2Fg%2F11hzxj7pf4?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn">Ver en Google Maps</a>
+            </div>
+        </section>
+    </section>
+
+    <section id="historia">
+        <section class="historia">
+            <article class="texto">
+                <h2>Sobre nosotros</h2>
+                <p>
+                    Desde el 15 de septiembre de 1993, nuestra tienda ha sido un punto de referencia en la venta de repuestos y accesorios para motos en la ciudad de Eldorado. 
+                    Lo que comenzó como un pequeño negocio familiar, atendido con dedicación y esmero, ha crecido con los años, manteniendo siempre el compromiso de ofrecer
+                    productos de calidad y un servicio personalizado. Nuestra historia está profundamente arraigada en el mundo 
+                    del motociclismo. No solo somos apasionados por las motos, sino que también las vivimos intensamente. Los dueños han sido corredores activos, una disciplina 
+                    que pone a prueba la habilidad y resistencia de los pilotos en terrenos complicados. Desde muy jóvenes, participamos en competencias locales, viajando por 
+                    toda la provincia para demostrar su destreza en las pistas, enfrentándose a obstáculos y condiciones extremas. ¡Te invitamos a ser parte de nuestra historia!
+                </p>
+            </article>
+            <aside class="imagen">
+                <img src="img/historia.jpg" alt="Kevin">
+            </aside>
+        </section>
+    </section>
+
+    <section id="taller">
+        <section class="taller">
+
+            <h2>Taller</h2>
+            <h3>Conoce a nuestros mecánicos</h3>
+            <div class="mecanicos">
+                <div class="mecanico">
+                    <img src="img/luis.jpg" alt="Luis Kleiss">
+                    <div class="mecanico-info">
+                        <h3>Luis Kleiss</h3>
+                        <p>Experto en reparación y mantenimiento de motocicletas, especializado en diagnosticar y solucionar problemas mecánicos.</p>
+                        <button id="saber-mas-btn" onclick="alternar()" >Saber más</button>
+                        <div id="info-extra">
+                            <p><strong>Celular:</strong> 3751523221</p>
+                            <p><strong>Experiencia:</strong> 25 años en el sector.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mecanico">
+                    <img src="img/luis.jpg" alt="Renzo Medina">
+                    <div class="mecanico-info">
+                        <h3>Renzo Medina</h3>
+                        <p>Con años de experiencia en el sector, garantiza un servicio de calidad, rápido y confiable para mantener tu moto.</p>
+                        <button id="saber-mas" onclick="alternar1()" >Saber más</button>
+                        <div id="info-ex">
+                            <p><strong>Celular:</strong> 3751417731</p>
+                            <p><strong>Experiencia:</strong> 25 años en mantenimiento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="servicios">
+                <div class="servicios">
+                    <h3>Conoce los servicios que ofrecemos en reparación y mantenimiento</h3>
+                </div>
+                <section class="carousel-section">
+                    <div class="carousel-container">
+                        <button class="carousel-btn left-btn">&lt;</button>
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-item">Mantenimiento general</div>
+                                <div class="carousel-item">Reparaciones</div>
+                                <div class="carousel-item">Neumáticos y ruedas</div>
+                                <div class="carousel-item">Electricidad y Electrónica</div>
+                                <div class="carousel-item">Frenos y suspensión</div>
+                                <div class="carousel-item">Mantenimiento preventivo</div>
+                                <div class="carousel-item">Servicios de Personalización</div>
+                                <div class="carousel-item">Cambio y Reemplazo de Piezas</div>
+                                <div class="carousel-item">Servicio de Diagnóstico y Escaneo</div>
+                                <div class="carousel-item">Servicios Especiales</div>
+                                <div class="carousel-item">Otros Servicios Adicionales</div>
+                            </div>
+                        </div>
+                        <button class="carousel-btn right-btn">&gt;</button>
+                    </div>
+                </section>
+            </section>
+
+        </section>
+    </section>
+
+    <footer>
+        <p class="empresa-nombre"><strong>Freddy Motos</strong></p>
+        <div class="footer-content">
+            <div class="fila">
+                <a href="https://wa.me/5493751446284" target="_blank">
+                    <i class="fab fa-whatsapp"></i>WhatsApp
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWsmHbnNpMxRHxnzZsLdRkbSggsxdVmZxSdFMGPnFhnNLFwlvnVgNgsgvRsdWVGPWLmSLMgHQ">
+                    <i class="correo"></i> Correo
+                </a>
+            </div>
+            <div class="fila">
+                <a href="https://www.instagram.com/freddy.motos/">
+                    <i class="fab fa-instagram"></i>Instagram
+                </a>
+                <a href="https://www.google.com/maps/place/Fredy+Motos/@-26.40856,-54.6033626,17z/data=!3m1!4b1!4m6!3m5!1s0x94f76dfcf232f83f:0x3c9070e7ccc10719!8m2!3d-26.40856!4d-54.6007823!16s%2Fg%2F11hzxj7pf4?entry=ttu&g_ep=EgoyMDI0MDkyMi4wIKXMDSoASAFQAw%3D%3D">
+                    <i class="ubi"></i> Ubicación
+                </a>
+            </div>
+            <p class="empresa-descripcion">Repuestos, Accesorios y Service de Motos</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
